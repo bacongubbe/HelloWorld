@@ -1,11 +1,20 @@
 ﻿// See https://aka.ms/new-console-template for more information
+
+
+using HelloWorldApp.model;
+
 namespace HelloWorldApp;
 
 class Program
 {
     static void Main(String[] args)
     {
-     Console.WriteLine("Hello, World!");
+
+        Animal dogge = new Dog() { Name = "doggeh", Age = 32};
+        Cat cat = new Cat() { Name = "Felix the pussycat" , Age = 44};
+        dogge.MakeSound();
+        cat.GiveItem("glass");
+       
     }
 
     private static void LoopArgs(String[] args)
@@ -29,7 +38,7 @@ class Program
 
     private static void BeNiceOnEvenAndRudeOnOddExceptSeven(String[] args)
     {
-        string input = args[0];
+        var input = args[0];
 
         if (args.Length % 2 == 0)
         {

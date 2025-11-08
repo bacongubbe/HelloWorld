@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bergf\\RiderProjects\\HelloWorldApp\\HelloWorldApp\\HelloWorldApp.csproj": {}
+    "C:\\Users\\Karls\\RiderProjects\\HelloWorld\\HelloWorldApp\\HelloWorldApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bergf\\RiderProjects\\HelloWorldApp\\HelloWorldApp\\HelloWorldApp.csproj": {
+    "C:\\Users\\Karls\\RiderProjects\\HelloWorld\\HelloWorldApp\\HelloWorldApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bergf\\RiderProjects\\HelloWorldApp\\HelloWorldApp\\HelloWorldApp.csproj",
+        "projectUniqueName": "C:\\Users\\Karls\\RiderProjects\\HelloWorld\\HelloWorldApp\\HelloWorldApp.csproj",
         "projectName": "HelloWorldApp",
-        "projectPath": "C:\\Users\\bergf\\RiderProjects\\HelloWorldApp\\HelloWorldApp\\HelloWorldApp.csproj",
-        "packagesPath": "C:\\Users\\bergf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bergf\\RiderProjects\\HelloWorldApp\\HelloWorldApp\\obj\\",
+        "projectPath": "C:\\Users\\Karls\\RiderProjects\\HelloWorld\\HelloWorldApp\\HelloWorldApp.csproj",
+        "packagesPath": "C:\\Users\\Karls\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Karls\\RiderProjects\\HelloWorld\\HelloWorldApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\bergf\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Karls\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\bergf\\.dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
